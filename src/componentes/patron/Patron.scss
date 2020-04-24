@@ -1,0 +1,75 @@
+.patron {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  z-index: 2;
+}
+
+#L {
+  background-color: #281234;
+  animation: patronL 1s;
+}
+
+@keyframes patronL {
+  0% {
+    background-color: #9a4cc6;
+  }
+  25% {
+    background-color: #8037a8;
+  }
+  50% {
+    background-color: #622b81;
+  }
+  75% {
+    background-color: #451f5a;
+  }
+  100% {
+    background-color: #281234;
+  }
+}
+
+#E {
+  background-color: #663697;
+  animation: patronE 1s;
+}
+
+@keyframes patronE {
+  0% {
+    background-color: #ccb2e7;
+  }
+  25% {
+    background-color: #b28dd9;
+  }
+  50% {
+    background-color: #9967cc;
+  }
+  75% {
+    background-color: #7f42be;
+  }
+  100% {
+    background-color: #663697;
+  }
+}
+
+#V {
+  background-color: #3da3aa;
+  animation: patronV 1s;
+}
+
+@keyframes patronV {
+  0% {
+    background-color: #c6eaed;
+  }
+  25% {
+    background-color: #a0dce0;
+  }
+  50% {
+    background-color: #7acdd2;
+  }
+  75% {
+    background-color: #55bdc4;
+  }
+  100% {
+    background-color: #3da3aa;
+  }
+}
